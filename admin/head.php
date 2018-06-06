@@ -1,0 +1,1 @@
+<div class=title><a href="index.php">后台首页</a> - <a href="admin_list.php">信息列表</a> - <a href="admin_info.php">网站信息</a> - <a href="admin_ad.php">广告管理</a> - <a href="admin_pw.php">密码修改</a></div>
