@@ -1,0 +1,1 @@
+<a href="index.php">首页</a><a href="add.php">信息发布</a><a href="index.php?info=zhaoling">招领信息</a><a href="index.php?info=guashi">挂失信息</a><a href="search.php">搜索</a>
