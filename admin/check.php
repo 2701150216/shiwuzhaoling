@@ -1,6 +1,6 @@
 <?php
 
-#登陆验证密码
+
 
 include_once '../inc/conn.php';
 session_start();
@@ -10,8 +10,8 @@ $exec = "select password from users where username='$username'";
 $result = mysql_query($exec);
 $num = mysql_num_rows($result);
 if ($rs = @mysql_fetch_object($result)) {
-    if ($rs->password == $passwords) {//检查登陆密码
-        $_SESSION['admin'] = "OK"; //检查登陆用户
+    if ($rs->password == $passwords) {
+        $_SESSION['admin'] = "OK"; 
         $_SESSION['user'] = $username;
         header("location:index.php");
     } else
