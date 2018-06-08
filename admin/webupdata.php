@@ -1,6 +1,6 @@
 <?php
 
-#网站信息更新
+
 
 session_start();
 if ($_SESSION['admin'] == "OK") {
