@@ -1,6 +1,6 @@
 <?php
 
-#退出
+
 
 session_start();
 session_unset();
@@ -26,12 +26,6 @@ include_once '../inc/info_ad.php';
             ?>
             <div style="color:#FF0000"><b>您已退出管理，正在返回网站首页……</b></div>
         </div>
-        <!-- 页脚-版权信息-Start  -->
-        <div id="footer" >
-            <?php
-            include_once 'foot.php'; //插入foot.php页脚信息
-            ?>
-        </div>
-        <!-- 页脚-版权信息-End  -->
+      
     </body>
 </html>
