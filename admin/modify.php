@@ -1,6 +1,6 @@
 <?php
 
-#修改信息
+
 
 session_start();
 include_once '../inc/conn.php';
@@ -72,13 +72,6 @@ if (($_SESSION['admin'] == "OK") && isset($_GET['id'])) {
             mysql_close();
             ?>
         </div>
-        <!-- 页脚-版权信息-Start  -->
-        <div id="footer" >
-            ﻿<p id="hr"></p>
-            <?php
-            include_once 'foot.php'; //插入foot.php页脚信息
-            ?>
-        </div>
-        <!-- 页脚-版权信息-End  -->
+       
     </body>
 </html>
