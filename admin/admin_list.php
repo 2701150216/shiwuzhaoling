@@ -1,6 +1,6 @@
 <?php
 
-#管理 - 信息列表
+
 
 session_start();
 ob_start();
@@ -95,13 +95,6 @@ include_once '../inc/order_sql.php';
 mysql_close();
 ?>
         </div>
-        <!-- 页脚-版权信息-Start  -->
-        <div id="footer" >
-            ﻿<p id="hr"></p>
-<?php
-include_once 'foot.php'; //插入foot.php页脚信息
-?>
-        </div>
-        <!-- 页脚-版权信息-End  -->
+      
     </body>
 </html>
