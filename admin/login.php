@@ -1,6 +1,6 @@
 <?php
 
-#登陆页面
+
 
 session_start();
 $_SESSION['admin'] = isset($_SESSION['admin']) ? $_SESSION['admin'] : '';
@@ -52,8 +52,6 @@ if ($_SESSION['admin'] == "OK") {
                     </div>
                 </form><!-- 表单end -->
             </strong></p><!-- 加粗end -->
-        <?php
-        include('foot.php'); //页脚版权信息
-        ?>
+       
     </body>
 </html>
