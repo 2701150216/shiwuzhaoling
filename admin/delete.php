@@ -1,6 +1,6 @@
 <?php
 
-#删除信息
+
 
 session_start();
 if (($_SESSION['admin'] == "OK") && isset($_GET['id'])) {
