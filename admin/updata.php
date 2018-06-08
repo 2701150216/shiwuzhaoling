@@ -1,6 +1,5 @@
 <?php
 
-#更新信息
 
 	session_start();
 	if($_SESSION['admin']=="OK"){
