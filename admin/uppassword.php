@@ -1,6 +1,6 @@
 <?php
 
-#更新密码
+
 
 session_start();
 if ($_SESSION['admin'] == "OK") {
